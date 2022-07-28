@@ -1,0 +1,8 @@
+If you are dealing with a large number of primitive managers, it is more efficient to use the IntBianryOperator. Now let's make this more interesting. Let's say we want to represent this operation, we have two arguments, the hand beam, first one to add them together,
+Now, let's apply this sequence on one. So we're going to increment one we get to the square of two is four.
+# stream
+And we want to count the number of movies that have more than 10 likes. So in this project, in the streams package, I'm going to add a movie class.
+This collection has the stream method that you saw in the last video. That means every class that implements the collection interface has the ability to return a stream. So you can create an ArrayList and call list dot stream to get a stream from this ArrayList. Now, what if you have an array? Let's create an integer array called numbers and initialize it to  1, 2, 3
+Arrays don't have the stream method. What we have arrays class, is a utility class declared in the java util package. Here we have a static method called stream, we can pass our array here, and this will return a stream. Every stream has this method forEach and gerEach object. So, look at the parameter of this method, we should pass an int consumer here. This is a primitive specialization of the consumer interface that we talked about in the last section. So the consumer interface represents an operation that takes an object and doesn't return a value. It basically consumes that object. That intConsumer represents an operation or a method that takes a primitive integer. So here we can see ...
+We can also create a stream from an arbitrary number of objects. So the stream method has a static factory method called of. Here we have a war archive
+

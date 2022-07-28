@@ -1,0 +1,6 @@
+For example, with the product and interface, we can get the customers who don't hava a phone number, or courses that are older than 2 years.
+# 3.5.8 Consumer Interface
+with tthis mathod, we can consumers, which basically means we can run many operations in sequence. let me show you how cool and powerful this is. SO I'm going to create a list of strengths and initialize it using. Now you learn that the consumer interface represents an operation that takes a single argument and doesn't return a value. Let's declare a variable of type consumer of string. I'm going to call this print. Now we should set this to a lambda expression. This lambda expression should match this method. So we should have a parameter of type string and it shouldn't return a value. Here
+
+# Composing Functions
+Let me show you how we can compose small functions to build more complex and interesting functions. So let's we have a string, and this format, key colon value that want to pass the string through two transformations. First one, I've replaced the colon with an equal sign. And the second transformation, we want to add braces around the string. So second one, add curly braces and get something like this.
