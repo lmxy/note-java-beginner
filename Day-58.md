@@ -16,4 +16,3 @@
     > Hugh appointed him an executor of his will.
     > the makers and executors of policy
 
-2. 
